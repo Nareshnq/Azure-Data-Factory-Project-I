@@ -4,7 +4,7 @@ This is my first hands-on Azure Data Engineering project. The goal was simple �
 
 The project covers the full ADF pipeline lifecycle: connecting to data sources, moving files, filtering with conditions, looping through folders, transforming data with Data Flows, and finally scheduling pipelines to run automatically. Everything you see here was built and tested live in Azure.
 
-> 📁 **Note:** The full project PDF (`Azure_Data_Factory_Project_1.pdf`) and all data files (`Fact_Sales_1.csv`, `Fact_Sales_2.csv`, `Bank_txns1.xlsx`, `Bank_txns2.xlsx`, etc.) will be added to this repository shortly in their respective folders.
+> 📁 **Note:** The full project PDF is in `main_project_file_pdf/` and the data files are in `Raw_files/` — see [Files in This Repo](#files-in-this-repo).
 
 ---
 
@@ -333,18 +333,19 @@ After validating the pipeline, I added a **scheduled trigger** to run it automat
 
 ## Files in This Repo
 
-> All files below will be added to this repository shortly. The PDF has full theory notes, pipeline walkthroughs, and screenshots from every step of this project.
+The PDF has full theory notes, pipeline walkthroughs, and screenshots from every step of this project.
 
 | File | Description |
 |---|---|
-| `Azure_Data_Factory_Project_1.pdf` | *(coming soon)* Full project notes — theory, pipeline steps, screenshots |
-| `Raw_files/Fact_Sales_1.csv` | *(coming soon)* Sales dataset — uploaded directly to ADLS source container |
-| `Raw_files/Fact_Sales_2.csv` | *(coming soon)* Sales dataset — pulled from GitHub via HTTP connector |
-| `Raw_files/Bank_transaction_small_dataset.xlsx` | *(coming soon)* Bank transactions — used in metadata pipeline tests |
-| `Raw_files/Bank_txns1.xlsx` | *(coming soon)* Bank transactions batch 1 — moved via pipeline4_1 |
-| `Raw_files/Bank_txns2.xlsx` | *(coming soon)* Bank transactions batch 2 — moved via pipeline4_1 |
-| `Raw_files/bank_transactions_data_2_augmented_clean_2.csv` | *(coming soon)* Augmented clean bank transaction dataset used in Data Flow |
-| `ADF_Copy_Activity_Notes.docx` | *(coming soon)* Reference notes on Copy Activity source/destination options |
+| `main_project_file_pdf/Azure_Data_Factory_Project_I.pdf` | Full project notes — theory, pipeline steps, screenshots |
+| `Raw_files/Fact_Sales_1.csv` | Sales dataset — uploaded directly to ADLS source container |
+| `Raw_files/Fact_Sales_2.csv` | Sales dataset — pulled from GitHub via HTTP connector |
+| `Raw_files/Bank_transaction_small_dataset.xlsx` | Bank transactions — used in metadata pipeline tests |
+| `Raw_files/Bank_txns1.xlsx` | Bank transactions batch 1 — moved via pipeline4_1 |
+| `Raw_files/Bank_txns2.xlsx` | Bank transactions batch 2 — moved via pipeline4_1 |
+| `Raw_files/ADF_Copy_Activity_Notes.docx` | Reference notes on Copy Activity source/destination options |
+
+> Note: the augmented clean bank transaction dataset (`bank_transactions_data_2_augmented_clean_2.csv`) mentioned in the Data Flow section is not in this repository yet.
 
 ---
 
